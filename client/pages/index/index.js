@@ -2,13 +2,38 @@
 var qcloud = require('../../vendor/wafer2-client-sdk/index')
 var config = require('../../config')
 var util = require('../../utils/util.js')
+var moment = require('../../utils/moment.js')
 
 Page({
     data: {
         userInfo: {},
         logged: false,
         takeSession: false,
-        requestResult: ''
+        requestResult: '',
+        date: null,
+        time: null,
+    },
+
+    onLoad: function() {
+        // console.log((moment('2018-01-03') - moment('2012-09-28')) / 3600000 / 24 + 1);
+    },
+
+    timeBtnClick: function() {
+        this.setData({
+            showTimePicker: !this.data.showTimePicker
+        });
+    },
+
+    timePickerChange: function(e) {
+        this.setData({
+            time: e.detail.value
+        });
+    },
+
+    datePickerChange: function(e) {
+        this.setData({
+            date: e.detail.value
+        });
     },
 
     // 用户登录示例

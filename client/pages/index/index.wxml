@@ -56,4 +56,24 @@
             <text>快速增加 CGI</text>
         </navigator>
     </view>
+    <view class="uploader">
+        <picker mode="time" bindchange="timePickerChange">
+            <view class="uploader-text">
+                <text>选择时间</text>
+            </view>  
+        </picker>   
+        <view wx:if="{{time}}" class="uploader-container">
+        {{time}}
+        </view>
+    </view> 
+    <view class="uploader">
+        <picker mode="date" bindchange="datePickerChange">
+            <view class="uploader-text">
+                <text>选择日期</text>
+            </view>  
+        </picker>   
+        <view wx:if="{{date}}" class="uploader-container">
+        {{date}}
+        </view>
+    </view>   
 </view>
