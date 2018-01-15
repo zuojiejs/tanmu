@@ -1,0 +1,9 @@
+.add-item{
+    width: 100%;
+    height: 200rpx;
+    margin-top: 60rpx;
+}
+.add-item button{
+    width: 600rpx;
+    margin: 0 auto;
+}

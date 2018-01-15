@@ -1,4 +1,5 @@
-// pages/add/add.js
+var moment = require('../../utils/moment.js')
+// pages/addIndex/addIndex.js
 Page({
 
   /**
@@ -12,6 +13,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log((moment('2018-01-07') - moment('2017-01-09')) / 3600000 / 24 + 1);
   
   },
 

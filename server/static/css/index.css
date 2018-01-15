@@ -11,7 +11,7 @@ a, a:active, a:hover, a:visited{
 .wrap{
   	position: relative;
       width: 100%;
-      padding-bottom: 0.7rem;
+      /* padding-bottom: 0.7rem; */
 }
 .foot{
 	position: fixed;
@@ -339,7 +339,7 @@ a, a:active, a:hover, a:visited{
 }
 /* 登陆页 */
 .login-content{
-    margin-bottom: 0.2rem;
+    /* margin-bottom: 0.2rem; */
 }
 .logo{
     width: 1rem;
@@ -416,8 +416,8 @@ a, a:active, a:hover, a:visited{
     margin-top: 0.4rem;
     font-size: 0.14rem;;
     color: #FFFFFF;
-    line-height: 0.4rem;
-    text-align: center;
+    line-height: 0.41rem;
+	text-align: center;
 }
 .login-btn:active{
 	background: #C4650E;

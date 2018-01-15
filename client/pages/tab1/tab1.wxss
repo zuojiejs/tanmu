@@ -1,6 +1,0 @@
-/* pages/tab1/tab1.wxss */
-.container{
-    height: 10000rpx;
-    width: 750rpx;
-    background: red;
-}

@@ -1,4 +1,4 @@
-// pages/tab1/tab1.js
+// pages/my/my.js
 Page({
 
   /**

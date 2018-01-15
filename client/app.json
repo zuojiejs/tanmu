@@ -1,33 +1,25 @@
 {
     "pages": [
-        "pages/tab1/tab1",
-        "pages/tab2/tab2",
-        "pages/add/add",
-        "pages/index2/index2",
-        "pages/addCgi/addCgi"
+        "pages/addIndex/addIndex",
+        "pages/my/my"
     ],
     "window": {
         "backgroundColor": "#F6F6F6",
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarBackgroundColor": "red",
         "navigationBarTitleText": "Wafer Quick Start",
         "navigationBarTextStyle": "black"
     },
     "tabBar": {
-        "borderStyle": "white",
-        "backgroundColor": "#00ff00",
+        "backgroundColor": "white",
         "list": [
             {
-                "pagePath": "pages/tab1/tab1",
-                "text": "时间差"
+                "pagePath": "pages/addIndex/addIndex",
+                "text": "新建"
             },
             {
-                "pagePath": "pages/add/add",
-                "text": "添加"
-            },
-            {
-                "pagePath": "pages/tab2/tab2",
-                "text": "倒计时"
+                "pagePath": "pages/my/my",
+                "text": "我的"
             }
         ]
     }

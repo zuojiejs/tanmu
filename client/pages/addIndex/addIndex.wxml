@@ -1,0 +1,6 @@
+<view class="add-item">
+    <button type="primary">时间差</button>
+</view>
+<view class="add-item">
+    <button type="primary">倒计时</button>
+</view>

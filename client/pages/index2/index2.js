@@ -15,7 +15,7 @@ Page({
     },
 
     onLoad: function() {
-        // console.log((moment('2018-01-03') - moment('2012-09-28')) / 3600000 / 24 + 1);
+        console.log((moment('2018-01-07') - moment('2018-01-03')) / 3600000 / 24 + 1);
     },
 
     timeBtnClick: function() {
