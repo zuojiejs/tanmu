@@ -1,13 +1,34 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/addCgi/addCgi"
-  ],
-  "window":{
-    "backgroundColor":"#F6F6F6",
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "Wafer Quick Start",
-    "navigationBarTextStyle":"black"
-  }
+    "pages": [
+        "pages/tab1/tab1",
+        "pages/tab2/tab2",
+        "pages/add/add",
+        "pages/index2/index2",
+        "pages/addCgi/addCgi"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "Wafer Quick Start",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "borderStyle": "white",
+        "backgroundColor": "#00ff00",
+        "list": [
+            {
+                "pagePath": "pages/tab1/tab1",
+                "text": "时间差"
+            },
+            {
+                "pagePath": "pages/add/add",
+                "text": "添加"
+            },
+            {
+                "pagePath": "pages/tab2/tab2",
+                "text": "倒计时"
+            }
+        ]
+    }
 }
