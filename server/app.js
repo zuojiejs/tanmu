@@ -4,6 +4,10 @@ const debug = require('debug')('koa-weapp-demo')
 const response = require('./middlewares/response')
 const bodyParser = require('koa-bodyparser')
 const config = require('./config')
+const path = require('path')
+const serve = require('koa-static')
+
+app.use(serve(path.join(__dirname, 'static')))
 
 // 使用响应处理中间件
 app.use(response)

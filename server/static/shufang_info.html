@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>超级书房</title>
+    <script src="./js/flexible.js"></script>
+</head>
+<body ontouchstart="" onmouseover="">
+    <div class="wrap">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/banner.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/banner.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/banner.png">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="common-title">
+            <span>天安书房</span>
+            <!-- 爱心变红添加类red -->
+            <i class="red"></i>
+        </div>
+        <div class="shufang-info-block">
+            <div class="shufang-info-block-title">
+                <i class="addr"></i>书房地点
+            </div>
+            <div class="shufang-info-block-desc">
+                深圳市南山区科技园南区R2-B三楼
+            </div>
+        </div>
+        <div class="shufang-info-block">
+            <div class="shufang-info-block-title">
+                <i class="tell"></i>联系方式
+            </div>
+            <div class="shufang-info-block-tell">
+                0755 - 4985 3847
+            </div>
+        </div>
+        <div class="shufang-info-block">
+            <div class="shufang-info-block-title">
+                <i class="info"></i>书房介绍
+            </div>
+            <div class="shufang-info-block-desc">
+                2017年4月，早道网校注册学员数突破300万，韩语网校、德语网校陆续上线，正式升级为多语种在线学习平台。
+            </div>
+        </div>
+        <div class="shufang-info-block">
+            <div class="shufang-info-block-title">
+                <i class="shebei"></i>设备包含
+            </div>
+            <div class="shufang-info-block-shebei">
+                <div><i class="dianshi"></i><span>电视</span></div>
+                <div><i class="kongtiao"></i><span>空调</span></div>
+                <div><i class="kezhuo"></i><span>课桌</span></div>
+                <div><i class="yizi"></i><span>椅子</span></div>
+                <div><i class="baiban"></i><span>白板</span></div>
+                <div><i class="touying"></i><span>投影</span></div>
+                <div><i class="guizi"></i><span>柜子</span></div>
+                <div><i class="jingzi"></i><span>镜子</span></div>
+            </div>
+        </div>
+        <div class="foot-btn">
+            <a class="foot-btn-btn1">邀请朋友</a>
+        </div>
+    </div>
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            autoplay: {
+                delay: 3000
+            }
+        });
+    </script>
+</body>
+</html>
